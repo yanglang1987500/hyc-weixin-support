@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="hyc-weixin-support" basedir="." default="wxdist-jar">
+	<property name="version" value="1.0"/>
+	<import file="${basedir}/../../builder/common.xml"/>
+	<import file="${basedir}/../../builder/common-lib.xml" />
+	<!-- core-template -->
+	<path id="compile.classpath">
+		<path refid="j2ee.classpath"/>
+		<path id="runtime.classpath">
+		<fileset dir="${lib.dir}/runtime">
+			<include name="*.jar" />
+		</fileset>
+		<fileset dir="${lib.dir}/sign">
+			<include name="*.jar" />
+		</fileset>
+		<fileset dir="${lib.dir}/weixin">
+			<include name="*.jar" />
+		</fileset>
+		<fileset dir="${lib.dir}/duiba">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+	</path>
+
+	<import file="${basedir}/../../builder/common-target.xml" />
+	
+	<target name="wxdist-jar" depends="jar">
+		<dist-jar output.dir="${basedir}/../../Lib/runtime" />
+	</target>
+
+</project>
+

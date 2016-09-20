@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/lib/weixin/commons-codec-1.4.jar"/>
+	<classpathentry kind="lib" path="/lib/weixin/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="/lib/weixin/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="/lib/weixin/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="/lib/weixin/commons-validator-1.1.4.jar"/>
+	<classpathentry kind="lib" path="/lib/weixin/json.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/anrhd-ibatis-2.3.5.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/common-annotations.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/commons-dbcp-1.2.2.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/commons-pool-1.3.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/jspsmartupload.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/jstl-1.1.2.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/livetribe-jsr223-2.0.6.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/logback-classic-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/logback-core-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/org.springframework.aop-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/org.springframework.asm-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/org.springframework.beans-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/org.springframework.context-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/org.springframework.context.support-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/org.springframework.core-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/org.springframework.expression-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/org.springframework.jdbc-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/org.springframework.orm-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/org.springframework.transaction-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/org.springframework.web-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/org.springframework.web.servlet-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/spring-security-acl-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/spring-security-config-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/spring-security-core-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/spring-security-taglibs-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/spring-security-web-3.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/xpp3-1.1.4c.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/xstream-1.4.7.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/hyc-domain"/>
+	<classpathentry kind="lib" path="/lib/runtime/hyc-framework-1.0.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/hyc-framework-data-1.0.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/hyc-framework-data-support-1.0.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/hyc-framework-security-1.0.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/hyc-framework-support-1.0.jar"/>
+	<classpathentry kind="lib" path="/lib/runtime/hyc-framework-template-1.0.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/hyc-proxy"/>
+	<classpathentry kind="lib" path="/lib/duiba/duiba.cedits.sdk.jar"/>
+	<classpathentry kind="lib" path="/lib/j2ee2.4/jsp-api.jar"/>
+	<classpathentry kind="lib" path="/lib/j2ee2.4/servlet-api-2.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

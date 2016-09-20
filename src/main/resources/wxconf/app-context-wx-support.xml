@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jee="http://www.springframework.org/schema/jee"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+		http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd">
+	
+	<bean class="com.hyc.weixin.filter.AutoMessageFilterChain">
+		<property name="filters">
+			<list>
+                <bean class="com.hyc.weixin.filter.SubscribeMessageFilter"></bean>
+                <bean class="com.hyc.weixin.filter.CustomerServiceMessageFilter"></bean>
+                <bean class="com.hyc.weixin.filter.UserAccountMessageFilter"></bean>
+                 <bean class="com.hyc.weixin.filter.StaticMessageFilter"></bean>
+                <!--<bean class="com.hyc.weixin.filter.StaticRandomMessageFilter">
+					<property name="handlers">
+						<list>
+			                <bean class="com.hyc.weixin.filter.tlhandler.TL100000Handler"></bean>
+			                
+			          		<bean class="com.hyc.weixin.filter.tlhandler.TL1000004TianqiHandler"></bean>
+			                <bean class="com.hyc.weixin.filter.tlhandler.TL308000Handler"></bean>
+			                <bean class="com.hyc.weixin.filter.tlhandler.TL302000Handler"></bean>
+			                
+			            </list>
+					</property>
+				</bean> -->
+            </list>
+		</property>
+	</bean>
+	<bean class="com.hyc.weixin.filter.StaticMessageCache">
+	</bean>
+	<bean class="com.hyc.weixin.WeiXinUtil">
+		<property name="appid" value="${weixin_appid}"/>
+		<property name="secret" value="${weixin_secret}"/>
+	</bean>
+</beans>
